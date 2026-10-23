@@ -42,4 +42,9 @@ def encrypt_submission(input_csv, output_enc, output_key, public_key_path):
 
 
 if __name__ == "__main__":
-    encrypt_submission(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
+    #encrypt_submission(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
+    if len(sys.argv) != 4:
+        sys.exit("Usage: python encrypt_submission.py prediction.csv prediction.enc public_key.pem")
+    input_csv, output_enc, public_key_path = sys.argv[1:4]
+    encrypt_submission(input_csv, output_enc, output_enc + ".key", public_key_path)
+    
