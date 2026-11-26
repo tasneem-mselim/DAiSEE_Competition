@@ -1,6 +1,6 @@
 Team,Accuracy,F1-Score
 qwen2.5-coder:32b,50.67,23.16
-tasneem-m-selim,45.33,22.89
+Human2_Bilstm,45.33,22.89
 qwen2.5-coder:14b,44.0,18.0
 deepseek-r1:14b,42.67,14.95
 qwen3:14b,42.67,16.29
@@ -9,6 +9,6 @@ gpt-6-luna,38.67,27.86
 GPT-OSS:20B,32.0,21.12
 deepcoder:14b,30.67,15.25
 gemini-3.8-flash,30.67,17.78
-Human_baseline,29.33,21.31
+Human1_lstm+atention,29.33,21.31
 gemini-3-flash-preview,24.0,17.17
 devstral-small-2:latest,5.33,2.53
