@@ -10,5 +10,6 @@ GPT-OSS:20B,32.0,21.12
 deepcoder:14b,30.67,15.25
 gemini-3.8-flash,30.67,17.78
 Human1_lstm+atention,29.33,21.31
+tasneem-m-selim,29.33,20.64
 gemini-3-flash-preview,24.0,17.17
 devstral-small-2:latest,5.33,2.53
