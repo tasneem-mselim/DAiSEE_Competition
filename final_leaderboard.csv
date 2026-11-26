@@ -2,7 +2,7 @@ Team,Accuracy,F1-Score
 qwen2.5-coder:32b,50.67,23.16
 Human2_Resnet1D,45.33,22.89
 qwen2.5-coder:14b,44.0,18.0
-tasneem-m-selim,44.0,22.88
+Human4_conv1D,44.0,22.88
 deepseek-r1:14b,42.67,14.95
 qwen3:14b,42.67,16.29
 Qwen3-coder,40.0,23.28
